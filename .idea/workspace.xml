@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e92bba1d-de27-4484-bdcd-6bd3682b1a17" name="Changes" comment="feat #4 : integrate Clerk authentication and add Geist font support in layout">
+    <list default="true" id="e92bba1d-de27-4484-bdcd-6bd3682b1a17" name="Changes" comment="feat #12: simplify layout by removing unused font imports and maintaining Clerk authentication">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in/[[...sign-in]]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in/[[...sign-in]]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up/[[...sign-up]]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-up/[[...sign-up]]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753282609959</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat #12: simplify layout by removing unused font imports and maintaining Clerk authentication">
+      <option name="closed" value="true" />
+      <created>1753283364306</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1753283364306</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +281,8 @@
     <MESSAGE value="feat: add Geist font support to layout for improved typography" />
     <MESSAGE value="feat: update workspace configuration for improved task management" />
     <MESSAGE value="feat #4 : integrate Clerk authentication and add Geist font support in layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat #4 : integrate Clerk authentication and add Geist font support in layout" />
+    <MESSAGE value="feat #12: simplify layout by removing unused font imports and maintaining Clerk authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat #12: simplify layout by removing unused font imports and maintaining Clerk authentication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
